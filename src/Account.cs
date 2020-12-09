@@ -58,7 +58,6 @@ namespace Tokens
                               string.Format(Statics.Private_ListOpenOrdersPair, tradingPair);
                             
             string response = Networking.GetResponseSigned(endpoint, this.Credentials, null);
-            Console.WriteLine(response);
             JObject responseJson = JObject.Parse(response);
 
             List<Order> orders = new List<Order>();

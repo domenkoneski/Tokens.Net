@@ -1,4 +1,4 @@
-# Tokens .Net
+# Tokens .Net (closed down on August 1st, 2021)
 C# .Net library to interact with Tokens.Net cryptocurrency exchange.
 
 ### Note:
